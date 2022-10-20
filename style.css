@@ -38,7 +38,7 @@
     font-weight: bolder;
 }
 .bordureBleue{
-    border: solid 2px aqua;
+    border: solid 2px #4BCAFF;
 }
 .eBleu{
     color: aqua;
@@ -53,7 +53,13 @@
 }
 
 .services {
-    background-color: aqua;
+    background-color: #4BCAFF;
     height: 70vh;
+    display: flex;
+    color: white;
+    justify-content:space-between;
 }
 
+.coffee {
+    
+}
