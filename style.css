@@ -1,65 +1,121 @@
-.ble{
-    height: 100vh;
-    background-image: url('images/HERO.jpg');
+.container-fluid,
+body {
+    margin: 0;
     padding: 0;
 }
 
-.navigation{
-    height: 20%;
-    background-color: rgba(0, 0, 0, 0.441);
-}
-.boitePunchline{
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
-.elementsNav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-.logo{
-    font-weight: bolder;
-    color: white;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-.lien{
-    margin: 5px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.6rem;
+a {
     text-decoration: none;
-    padding: 4px;
-    font-weight: bolder;
-}
-.bordureBleue{
-    border: solid 2px #4BCAFF;
-}
-.eBleu{
-    color: aqua;
-}
-.punchline{
-    
-    color: white;
-    background-color: rgba(0, 0, 0, 0.441);
-    font-size: 3rem;
-    padding:4px;
-    margin-top: 4px;
 }
 
-.services {
+.heroImage {
+    background-image: linear-gradient(black, black), url("./images/HERO.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-blend-mode:color;
+}
+
+.contactInfos > li,
+.topbar > ul > li > a {
+    color: white
+}
+
+.topbarPortfolio > ul > li > a {
+    color: black;
+}
+
+.footerLinks > li,
+.contactInfos > li,
+.topbarPortfolio > ul > li,
+.topbar > ul > li {
+    list-style-type: none;
+}
+
+.footerLinks > li{
+    padding: 0 20px;
+}
+
+.socials > li {
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+.topbarBg {
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 10vh;
+    width:100%;
+    position: fixed;
+    
+}
+
+.servicesBg {
+    background-color: #0ECCEE;
+}
+.footerBg,
+.justdefaultBg {
+    background-color: #657178;
+}
+
+.twitterBg {
     background-color: #4BCAFF;
-    height: 70vh;
-    display: flex;
-    color: white;
-    justify-content:space-between;
 }
 
-.coffee {
-    
+.contactBg,
+.johndoeBg {
+    background-color: #8CB3D7;
 }
+
+
+footer{
+    color:#A09F9E;
+}
+
+.border-end{
+    border-color: #A09F9E 
+}
+
+
+.topbar {
+    height: 10vh;
+}
+
+.hero {
+    height: 90vh;
+}
+
+.bleu {
+    color: #0ECCEE;
+}
+
+.borderBleu {
+    border: 3px solid #0ECCEE;
+}
+
+
+.imgsPortfolio > img {
+    height: 30vh;
+    padding: 20px;
+}
+
+
+.btnVisitme {
+    border: 3px black solid;
+    background-color: transparent;
+    padding: 5px 30px
+}
+
+.btnMessage{
+    background-color: #4BCAFF;
+    padding: 5px 75px;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+
+
